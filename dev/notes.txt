@@ -9,4 +9,6 @@
 	- x import json
 	- x mock show import 
 - .. create BedarfsrechnerPR3 page
+	- x create mock click to alert
+	- create state variables for anzahl and volleTage and show
 
