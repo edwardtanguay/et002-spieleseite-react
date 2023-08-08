@@ -1,7 +1,8 @@
-- .. create all pages
+- x create all pages
 	PreislistePR3
 	BedarfsrechnerPR3
 	KampfPR3
 	SchiffePR3
 	BedarfsrechnerP4
 	AboutPR3
+- .. create PreislistePR3 page

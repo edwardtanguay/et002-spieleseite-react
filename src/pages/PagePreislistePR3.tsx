@@ -1,7 +1,10 @@
+import { PreislistePR3 } from "../components/PreislistePR3";
+
 export const PagePreislistePR3 = () => {
 	return (
 		<div className="page pagePreislistePR3">
-			<p>This is the PreislistePR3 page.</p>
+			<PreislistePR3 />
+
 		</div>
 	);
 };
