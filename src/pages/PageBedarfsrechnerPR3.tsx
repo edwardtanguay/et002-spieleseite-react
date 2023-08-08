@@ -1,5 +1,8 @@
-// import waren from '../data/portRoyale3/waren.json';
+import waren from '../data/portRoyale3/waren.json';
 import { useState } from 'react';
+
+const _bdholz = waren.find((m) => m.name === "Holz")?.bd;
+const bdholz = _bdholz ? _bdholz : 0;
 
 export const PageBedarfsrechnerPR3 = () => {
 	const [anzahl, setAnzahl] = useState(0);
@@ -30,6 +33,11 @@ export const PageBedarfsrechnerPR3 = () => {
 					<input type="reset" />
 				</form>
 
+
+				<div>
+					<div>bdholz: {bdholz}</div>
+					<div>bdrholz: {anzahl * bdholz}</div>
+				</div>
 				<section className="bedarfsrechner">
 					<table>
 						<thead>
@@ -51,7 +59,7 @@ export const PageBedarfsrechnerPR3 = () => {
 										<span className="hover-text">Holz</span>
 									</div>
 								</td>
-								<td className="bdrholz">0</td>
+								<td className="bdrholz">{Math.round(anzahl * bdholz *100)}</td>
 								<td className="pr3profitholz">0</td>
 								<td><div className="image-container">
 									<img src="https://i.imgur.com/AjFjve2.png" alt="" id="hover-image" />
