@@ -4,7 +4,6 @@ export const PagePreislistePR3 = () => {
 	return (
 		<div className="page pagePreislistePR3">
 			<PreislistePR3 />
-
 		</div>
 	);
 };

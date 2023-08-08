@@ -11,7 +11,7 @@ import { PageBedarfsrechnerP4 } from './pages/PageBedarfsrechnerP4';
 function App() {
 	return (
 		<div className="App">
-			<h1>Info Site</h1>
+			<h1>Glenna´s Spielekiste</h1>
 			<nav>
 				<ul>
 					<li className="dropdown">
