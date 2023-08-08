@@ -10,7 +10,9 @@ export const PageBedarfsrechnerPR3 = () => {
 
 	const handleAnzahlChange = (e: React.ChangeEvent) => {
 		const _anzahl = Number((e.target as HTMLInputElement).value);
-		setAnzahl(_anzahl);
+		if (!Number.isNaN(_anzahl)) {
+			setAnzahl(_anzahl);
+		}
 	}
 
 	return (
