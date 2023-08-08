@@ -5,6 +5,8 @@
 	SchiffePR3
 	BedarfsrechnerP4
 	AboutPR3
-- .. create PreislistePR3 page
+- x create PreislistePR3 page
 	- x import json
-	- .. mock show import 
+	- x mock show import 
+- .. create BedarfsrechnerPR3 page
+
